@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    border: 0px;
+   
+}
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(162, 167, 90);
+    }
+ .Main{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto;
+    background-color: rgb(193, 227, 227);
+    text-align: center;
+    margin: 20%;
+    padding:50px;
+    border-radius: 15px;
+    
+     } 
+.box1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    margin-bottom: 5%;
+}
+.box2{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    margin-bottom: 5%;
+
+}
+.box3{
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+.box4{
+    grid-row: 4/5;
+    grid-column: 1/2;
+    margin-bottom: 5%;
+}
+.box5{
+    grid-row: 5/6;
+    grid-column: 1/2;
+}
+.game-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.input-box {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.input-box:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+}
+
+.btn {
+    padding: 13px;
+    font-size: 19px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(to right, #007bff, #0056b3);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: linear-gradient(to right, #0056b3, #003d80);
+}
